@@ -1,0 +1,158 @@
+[
+  {
+    "id": 1,
+    "name": "Starter Plan",
+    "description": "Perfect for individuals who are just getting started with their career.",
+    "price": 0,
+    "period": "one-time",
+    "tag": "Free",
+    "tagType": "new",
+    "features": [
+      "5 Templates",
+      "Basic PDF Export",
+      "Community Support"
+    ],
+    "icon": "🚀"
+  },
+  {
+    "id": 2,
+    "name": "Professional Resume",
+    "description": "Advanced tools to help you stand out from the crowd.",
+    "price": 19.99,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "50+ Templates",
+      "ATS Optimization",
+      "Unlimited Exports",
+      "Priority Support"
+    ],
+    "icon": "💼"
+  },
+  {
+    "id": 3,
+    "name": "Executive Growth",
+    "description": "Comprehensive solution for senior professionals and executives.",
+    "price": 149.99,
+    "period": "yearly",
+    "tag": "Best Value",
+    "tagType": "best seller",
+    "features": [
+      "All Premium Templates",
+      "AI Cover Letter Generator",
+      "LinkedIn Optimization",
+      "1-on-1 Consultation"
+    ],
+    "icon": "👑"
+  },
+  {
+    "id": 4,
+    "name": "Design Pro",
+    "description": "Focused on creative professionals needing high-end visual resumes.",
+    "price": 29.99,
+    "period": "monthly",
+    "tag": "Creative",
+    "tagType": "new",
+    "features": [
+      "Custom Branding",
+      "Portfolio Integration",
+      "HD Image Export",
+      "Font Library Access"
+    ],
+    "icon": "🎨"
+  },
+  {
+    "id": 5,
+    "name": "Student Bundle",
+    "description": "Specialized features for students and fresh graduates.",
+    "price": 49.99,
+    "period": "yearly",
+    "tag": "Discounted",
+    "tagType": "popular",
+    "features": [
+      "Internship Guides",
+      "Academic Templates",
+      "Grammar Checker",
+      "Multi-language Support"
+    ],
+    "icon": "🎓"
+  },
+  {
+    "id": 6,
+    "name": "Enterprise Lite",
+    "description": "Ideal for small teams or recruitment agencies.",
+    "price": 299.00,
+    "period": "yearly",
+    "tag": "Team Choice",
+    "tagType": "best seller",
+    "features": [
+      "Team Collaboration",
+      "Bulk Export",
+      "Custom Domain",
+      "Admin Dashboard"
+    ],
+    "icon": "🏢"
+  },
+  {
+    "id": 7,
+    "name": "Quick Fix",
+    "description": "A one-time polish for your existing resume.",
+    "price": 9.99,
+    "period": "one-time",
+    "tag": "Flash Sale",
+    "tagType": "new",
+    "features": [
+      "Instant Review",
+      "Spelling Correction",
+      "Format Alignment"
+    ],
+    "icon": "⚡"
+  },
+  {
+    "id": 8,
+    "name": "Career Coach Plus",
+    "description": "Get insights and data-driven improvements for your profile.",
+    "price": 39.99,
+    "period": "monthly",
+    "tag": "AI Powered",
+    "tagType": "popular",
+    "features": [
+      "Keywords Analysis",
+      "Competitor Benchmarking",
+      "Weekly Reports"
+    ],
+    "icon": "📊"
+  },
+  {
+    "id": 9,
+    "name": "Ultimate Lifetime",
+    "description": "Buy once and enjoy all future updates forever.",
+    "price": 499.00,
+    "period": "one-time",
+    "tag": "Legacy",
+    "tagType": "best seller",
+    "features": [
+      "Lifetime Access",
+      "Beta Feature Access",
+      "VIP Support",
+      "No Hidden Fees"
+    ],
+    "icon": "💎"
+  },
+  {
+    "id": 10,
+    "name": "Freelancer Suite",
+    "description": "Tools tailored for independent contractors and gig workers.",
+    "price": 24.99,
+    "period": "monthly",
+    "tag": "Flexible",
+    "tagType": "new",
+    "features": [
+      "Project Tracking",
+      "Invoice Templates",
+      "Skill Endorsement Tools"
+    ],
+    "icon": "🏠"
+  }
+]

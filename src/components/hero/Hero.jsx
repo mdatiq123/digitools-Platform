@@ -1,6 +1,7 @@
 import React from 'react';
 import bannerImg from '../../assets/products/banner.png'
 import { Play } from 'lucide-react';
+import badgeIcon from '../../assets/products/badge-icon.png'
 
 const Hero = () => {
     return (
@@ -11,8 +12,9 @@ const Hero = () => {
                     className="h-147.5 w-125 rounded-lg shadow-2xl"
                 />
                 <div>
+                    <div className="badge badge-soft badge-primary rounded-xl py-3 px-4  text-linear-to-r from-blue-600  to-purple-600 flex justify-center items-center gap-2 text-xl font-medium"><img src={badgeIcon} alt="badgeIcon" /><span>New: AI-Powered Tools Available</span></div>
                     <h1 className="text-7xl font-extrabold">Supercharge Your <br />Digital Workflow</h1>
-                    <p className="py-6">
+                    <p className="py-6 text-gray-500 text-xl">
                         Access premium AI tools, design assets, templates, and productivity <br />
                         software—all in one place. Start creating faster today. <br />
 

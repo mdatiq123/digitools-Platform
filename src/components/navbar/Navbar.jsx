@@ -3,7 +3,7 @@ import React from 'react';
 
 const Navbar = () => {
     return (
-        <div className='shadow-sm'>
+        <div className='shadow-sm w-full'>
 
             <div className="navbar max-w-7xl mx-auto bg-base-100  ">
                 
