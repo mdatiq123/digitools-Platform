@@ -8,18 +8,18 @@ const Footer = () => {
         <footer className='bg-[#0B1120] text-white pt-24 pb-10'>
             <div className='max-w-7xl mx-auto px-6'>
                 
-                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 mb-16'>
-                    
+                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-10 mb-16'>
+
                     
                     <div className='lg:col-span-2 space-y-6'>
                         <h1 className='text-4xl font-bold tracking-tight'>DigiTools</h1>
                         <p className='text-gray-400 text-base leading-relaxed max-w-sm'>
-                            Premium digital tools for creators, professionals, and businesses. 
+                            Premium digital tools for creators, professionals, and businesses.
                             Work smarter with our suite of powerful tools.
                         </p>
                     </div>
 
-                    
+                   
                     <div className='space-y-4'>
                         <h3 className='text-lg font-semibold'>Product</h3>
                         <ul className='space-y-3 text-gray-400 text-sm'>
@@ -42,38 +42,36 @@ const Footer = () => {
                     </div>
 
                     
-                    <div className='space-y-6'>
-                        <div className='space-y-4'>
-                            <h3 className='text-lg font-semibold'>Resources</h3>
-                            <ul className='space-y-3 text-gray-400 text-sm'>
-                                <li className='hover:text-white cursor-pointer transition-colors'>Documentation</li>
-                                <li className='hover:text-white cursor-pointer transition-colors'>Help Center</li>
-                                <li className='hover:text-white cursor-pointer transition-colors'>Community</li>
-                                <li className='hover:text-white cursor-pointer transition-colors'>Contact</li>
-                            </ul>
-                        </div>
-                        
-                        <div className='space-y-4'>
-                            <h3 className='text-lg font-semibold'>Social Links</h3>
-                            <div className='flex gap-4'>
-                                <a href="#" className='bg-white rounded-full p-2 hover:bg-gray-200 transition-all'>
-                                    <img src={instagram} alt="Instagram" className='w-5 h-5 object-contain invert' />
-                                </a>
-                                <a href="#" className='bg-white rounded-full p-2 hover:bg-gray-200 transition-all'>
-                                    <img src={facebook} alt="Facebook" className='w-5 h-5 object-contain invert' />
-                                </a>
-                                <a href="#" className='bg-white rounded-full p-2 hover:bg-gray-200 transition-all'>
-                                    <img src={X} alt="X" className='w-5 h-5 object-contain invert' />
-                                </a>
-                            </div>
+                    <div className='space-y-4'>
+                        <h3 className='text-lg font-semibold'>Resources</h3>
+                        <ul className='space-y-3 text-gray-400 text-sm'>
+                            <li className='hover:text-white cursor-pointer transition-colors'>Documentation</li>
+                            <li className='hover:text-white cursor-pointer transition-colors'>Help Center</li>
+                            <li className='hover:text-white cursor-pointer transition-colors'>Community</li>
+                            <li className='hover:text-white cursor-pointer transition-colors'>Contact</li>
+                        </ul>
+                    </div>
+
+                    
+                    <div className='space-y-4'>
+                        <h3 className='text-lg font-semibold'>Social Links</h3>
+                        <div className='flex gap-4'>
+                            <a href="#" className='bg-white rounded-full p-2 hover:bg-gray-200 transition-all'>
+                                <img src={instagram} alt="Instagram" className='w-5 h-5 object-contain invert' />
+                            </a>
+                            <a href="#" className='bg-white rounded-full p-2 hover:bg-gray-200 transition-all'>
+                                <img src={facebook} alt="Facebook" className='w-5 h-5 object-contain invert' />
+                            </a>
+                            <a href="#" className='bg-white rounded-full p-2 hover:bg-gray-200 transition-all'>
+                                <img src={X} alt="X" className='w-5 h-5 object-contain invert' />
+                            </a>
                         </div>
                     </div>
                 </div>
 
                 
-                <div className="h-px bg-gray-800 w-full mb-8"></div>
+                <div className="h-px bg-gray-800 mb-8"></div>
 
-                
                 <div className='flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-500'>
                     <p>© 2026 Digitools. All rights reserved.</p>
                     <div className='flex gap-8'>
