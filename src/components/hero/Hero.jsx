@@ -9,7 +9,7 @@ const Hero = () => {
             <div className="hero-content flex-col gap-20 lg:flex-row-reverse">
                 <img
                     src={bannerImg}
-                    className="h-147.5 w-125 rounded-lg shadow-2xl"
+                    className="h-147.5 w-125 rounded-lg "
                 />
                 <div>
                     <div className="badge badge-soft badge-primary rounded-xl py-3 px-4  text-linear-to-r from-blue-600  to-purple-600 flex justify-center items-center gap-2 text-xl font-medium"><img src={badgeIcon} alt="badgeIcon" /><span>New: AI-Powered Tools Available</span></div>
