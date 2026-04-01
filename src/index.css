@@ -7,3 +7,21 @@
 body{
   font-family: "Manrope", sans-serif;
 }
+/* টোস্টের ডিফল্ট ব্যাকগ্রাউন্ড রিমুভ করে গ্রেডিয়েন্ট দেওয়া */
+.Toastify__toast--success {
+    background: linear-gradient(to right, #2563eb, #9333ea) !important;
+    color: white !important;
+}
+
+.Toastify__toast--info {
+    background: linear-gradient(to right, #2563eb, #9333ea) !important;
+    color: white !important;
+}
+
+/* আইকন এবং প্রগ্রেস বার সাদা করা */
+.Toastify__toast-icon svg {
+    fill: white !important;
+}
+.Toastify__progress-bar {
+    background: rgba(255, 255, 255, 0.7) !important;
+}

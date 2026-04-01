@@ -8,6 +8,7 @@ import Navbar from './components/navbar/Navbar'
 import Rating from './components/rating/Rating'
 import Steps from './components/steps/Steps'
 import WorkFlow from './components/workflow/WorkFlow'
+import Pricing from './components/pricing/Pricing'
 
 
 
@@ -29,6 +30,7 @@ function App() {
         <DigitalTools productCardPromise={productCardPromise}></DigitalTools>
       </Suspense>
       <Steps></Steps>
+      <Pricing></Pricing>
       <WorkFlow></WorkFlow>
       <Footer></Footer>
     </>
