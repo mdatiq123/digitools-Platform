@@ -1,5 +1,5 @@
 import React from 'react';
-import { Check } from 'lucide-react'; // আইকনের জন্য লুবাইড রিঅ্যাক্ট ব্যবহার করা হয়েছে
+import { Check } from 'lucide-react'; 
 
 const Pricing = () => {
   const plans = [
@@ -46,7 +46,7 @@ const Pricing = () => {
   return (
     <section className="bg-gray-50 py-20 px-4">
       <div className="max-w-6xl mx-auto">
-        {/* Header Section */}
+       
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
             Simple, Transparent Pricing
@@ -56,7 +56,7 @@ const Pricing = () => {
           </p>
         </div>
 
-        {/* Pricing Cards Grid */}
+        
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
           {plans.map((plan, index) => (
             <div
@@ -67,7 +67,7 @@ const Pricing = () => {
                   : "bg-white text-gray-900 border border-gray-100 shadow-lg"
               }`}
             >
-              {/* Most Popular Tag */}
+              
               {plan.isPopular && (
                 <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-[#FEF3C7] text-[#92400E] text-xs font-bold px-4 py-1 rounded-full uppercase tracking-wider">
                   Most Popular
@@ -87,12 +87,12 @@ const Pricing = () => {
                 </div>
               </div>
 
-              {/* Features List */}
+              
               <ul className="space-y-4 mb-10">
                 {plan.features.map((feature, idx) => (
                   <li key={idx} className="flex items-start gap-3">
                     <Check
-                      className={`w-5 h-5 mt-0.5 flex-shrink-0 ${
+                      className={`w-5 h-5 mt-0.5 shrink-0 ${
                         plan.isPopular ? "text-green-300" : "text-green-500"
                       }`}
                     />
@@ -101,7 +101,7 @@ const Pricing = () => {
                 ))}
               </ul>
 
-              {/* Button */}
+              
               <button
                 className={`w-full py-4 rounded-full font-bold transition-colors ${
                   plan.isPopular

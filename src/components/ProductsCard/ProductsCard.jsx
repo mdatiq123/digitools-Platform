@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-// ১. সঠিক পাথে ইম্পোর্ট করা (Vite এরর এড়াতে)
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -7,14 +6,14 @@ const ProductsCard = ({ productCard = [] }) => {
     const [view, setView] = useState('products');
     const [cart, setCart] = useState([]);
 
-    // টোস্টের জন্য গ্রেডিয়েন্ট স্টাইল
+   
     const gradientStyle = {
         background: "linear-gradient(to right, #2563eb, #9333ea)",
         color: "white",
         fontWeight: "bold"
     };
 
-    // কার্টে যোগ করা
+    
     const handleAddToCart = (product) => {
         const isExist = cart.find(item => item.id === product.id);
         if (!isExist) {
@@ -26,7 +25,7 @@ const ProductsCard = ({ productCard = [] }) => {
         }
     };
 
-    // কার্ট থেকে সরানো
+   
     const handleRemoveFromCart = (id, name) => {
         setCart(cart.filter(item => item.id !== id));
         toast.error(`${name} removed! 🗑️`, {
@@ -37,7 +36,7 @@ const ProductsCard = ({ productCard = [] }) => {
 
     const totalPrice = cart.reduce((sum, item) => sum + item.price, 0);
 
-    // চেকআউট
+    
     const handleCheckout = () => {
         toast.info(`Purchase Successful! Total: $${totalPrice.toFixed(2)}`, {
             style: gradientStyle,
@@ -59,10 +58,10 @@ const ProductsCard = ({ productCard = [] }) => {
 
     return (
         <div className="p-4 md:p-10">
-            {/* ২. টোস্ট কন্টেইনার এখানে অবশ্যই থাকতে হবে */}
+            
             <ToastContainer />
 
-            {/* ট্যাব বাটন */}
+            
             <div className='bg-base-200 rounded-full w-fit mx-auto mb-10 p-1 flex gap-2'>
                 <button 
                     onClick={() => setView('products')}
@@ -79,7 +78,7 @@ const ProductsCard = ({ productCard = [] }) => {
             </div>
 
             {view === 'products' ? (
-                /* --- Products Grid --- */
+                
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-stretch justify-items-center'>
                     {productCard.map(product => {
                         const isInCart = cart.find(item => item.id === product.id);
@@ -126,7 +125,7 @@ const ProductsCard = ({ productCard = [] }) => {
                     })}
                 </div>
             ) : (
-                /* --- Cart View --- */
+                
                 <div className="max-w-2xl mx-auto bg-base-100 p-6 sm:p-8 rounded-2xl shadow-xl border border-gray-100">
                     <h2 className="text-3xl font-bold mb-6 text-center text-gray-800">Your Cart 🛒</h2>
                     {cart.length > 0 ? (

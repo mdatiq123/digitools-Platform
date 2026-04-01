@@ -7,10 +7,10 @@ const Footer = () => {
     return (
         <footer className='bg-[#0B1120] text-white pt-24 pb-10'>
             <div className='max-w-7xl mx-auto px-6'>
-                {/* Main Content */}
+                
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 mb-16'>
                     
-                    {/* Brand Section */}
+                    
                     <div className='lg:col-span-2 space-y-6'>
                         <h1 className='text-4xl font-bold tracking-tight'>DigiTools</h1>
                         <p className='text-gray-400 text-base leading-relaxed max-w-sm'>
@@ -19,7 +19,7 @@ const Footer = () => {
                         </p>
                     </div>
 
-                    {/* Product Links */}
+                    
                     <div className='space-y-4'>
                         <h3 className='text-lg font-semibold'>Product</h3>
                         <ul className='space-y-3 text-gray-400 text-sm'>
@@ -30,7 +30,7 @@ const Footer = () => {
                         </ul>
                     </div>
 
-                    {/* Company Links */}
+                    
                     <div className='space-y-4'>
                         <h3 className='text-lg font-semibold'>Company</h3>
                         <ul className='space-y-3 text-gray-400 text-sm'>
@@ -41,7 +41,7 @@ const Footer = () => {
                         </ul>
                     </div>
 
-                    {/* Resources & Social */}
+                    
                     <div className='space-y-6'>
                         <div className='space-y-4'>
                             <h3 className='text-lg font-semibold'>Resources</h3>
@@ -70,8 +70,8 @@ const Footer = () => {
                     </div>
                 </div>
 
-                {/* Divider */}
-                <div className="h-[1px] bg-gray-800 w-full mb-8"></div>
+                
+                <div className="h-px bg-gray-800 w-full mb-8"></div>
 
                 
                 <div className='flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-500'>
